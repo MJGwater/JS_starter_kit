@@ -1,0 +1,15 @@
+#editorconfig.org
+#more on editorconfig.org here http://editorconfig.org/
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+#charset shouldnt actually work as of 06/17 per https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.md]
+trim_trailing_whitespace = false
